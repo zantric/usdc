@@ -1,0 +1,199 @@
+{
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "blockchain": "Solana",
+    "network": "mainnet-beta",
+    "standard": "SPL Token",
+    "token_type": "Fungible",
+    "decimals": 6,
+    "mint_address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "supply": {
+      "total_supply": "8000000000000",
+      "circulating_supply": "8000000000000",
+      "maximum_supply": "8000000000000",
+      "raw_supply": "8000000000000000000",
+      "unit": "tokens"
+    }
+  },
+
+  "metadata": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "description": "USD Coin (USDC) is a fully collateralized US dollar stablecoin issued by Circle, a regulated financial services company. USDC on Solana is a native SPL token — not a wrapped or bridged derivative — providing sub-second finality and sub-cent transaction fees. Reserves are held in cash and short-term U.S. Treasuries, with the majority invested in the Circle Reserve Fund (USDXX), an SEC-registered 2a-7 government money market fund managed by BlackRock.",
+    "image": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
+    "logo_uri": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png",
+    "logo_github": "https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/128/color/usdc.png",
+    "external_url": "https://www.usdc.com/",
+    "whitepaper": "https://www.centre.io/usdc",
+    "documentation": "https://developers.circle.com/",
+    "official_website": "https://www.usdc.com/",
+    "issuer": "Circle Internet Financial, LLC",
+    "issuer_jurisdiction": "United States",
+    "reserve_attestor": "Deloitte & Touche LLP",
+    "attestation_frequency": "Monthly"
+  },
+
+  "classification": {
+    "asset_type": "stablecoin",
+    "category": "fiat-collateralized",
+    "peg": "USD",
+    "peg_ratio": "1:1",
+    "tags": [
+      "stablecoin",
+      "fiat-backed",
+      "usd-pegged",
+      "solana",
+      "spl",
+      "circle",
+      "usdc"
+    ]
+  },
+
+  "market": {
+    "price_usd": 0.9999,
+    "market_cap_usd": 7999200000000,
+    "fully_diluted_valuation_usd": 7999200000000,
+    "volume_24h_usd": 24950000000,
+    "volume_to_market_cap_24h": 0.0031,
+    "liquidity_usd": 3800000000,
+    "liquidity_note": "Aggregate USDC liquidity across Solana DEX pools; Raydium and Meteora carry the deepest single venues.",
+    "dominance": 0.24,
+    "price_change": {
+      "1h": 0.0,
+      "24h": 0.0,
+      "7d": -0.01,
+      "30d": 0.0,
+      "1y": 0.01
+    },
+    "ath": 1.17,
+    "ath_date": "2021-11-17",
+    "atl": 0.8774,
+    "atl_date": "2023-03-11",
+    "last_updated": "2026-09-19T00:00:00Z",
+    "source": "CoinMarketCap + CoinGecko composite"
+  },
+
+  "coinmarketcap": {
+    "cmc_id": 3408,
+    "cmc_ucid": 3408,
+    "slug": "usd-coin",
+    "rank": 6,
+    "listing_status": "listed",
+    "verified": true,
+    "market_chart_url": "https://coinmarketcap.com/currencies/usd-coin/",
+    "solana_token_page": "https://coinmarketcap.com/currencies/usd-coin/solana/",
+    "url": "https://coinmarketcap.com/currencies/usd-coin/",
+    "tags": [
+      "Stablecoin",
+      "USD Stablecoin",
+      "Fiat-Backed Stablecoin",
+      "Solana Ecosystem",
+      "Ethereum Ecosystem",
+      "Base Ecosystem"
+    ],
+    "platform": {
+      "name": "Solana",
+      "token_address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    }
+  },
+
+  "coingecko": {
+    "id": "usd-coin",
+    "coingecko_ucid": "usd-coin",
+    "slug": "usd-coin",
+    "asset_platform": "solana",
+    "contract_address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "market_cap_rank": 6,
+    "verified": true,
+    "market_chart_url": "https://www.coingecko.com/en/coins/usd-coin",
+    "solana_token_page": "https://www.coingecko.com/en/coins/usd-coin/solana",
+    "url": "https://www.coingecko.com/en/coins/usd-coin",
+    "categories": [
+      "Stablecoins",
+      "USD Stablecoin",
+      "Fiat-backed Stablecoins",
+      "Solana Ecosystem",
+      "Ethereum Ecosystem",
+      "Base Ecosystem",
+      "Arbitrum Ecosystem",
+      "Optimism Ecosystem"
+    ]
+  },
+
+  "dex": {
+    "listed": true,
+    "primary_dex": "Raydium",
+    "pairs": [
+      "USDC/SOL",
+      "USDC/USDT"
+    ],
+    "pools": [
+      {
+        "dex": "Raydium",
+        "type": "AMM",
+        "pair": "USDC/USDT",
+        "pool_address": "3NeUgARDmFgnKtkJLqUcEUNCfknFCcGsFfMJCtx6bAgx",
+        "liquidity_usd": 36985,
+        "url": "https://dexrabbit.bitquery.io/solana/pool/3NeUgARDmFgnKtkJLqUcEUNCfknFCcGsFfMJCtx6bAgx"
+      },
+      {
+        "dex": "Meteora",
+        "type": "DLMM",
+        "pair": "USDC/USDT",
+        "pool_address": "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq",
+        "liquidity_usd": null,
+        "url": "https://app.meteora.ag/dlmm/ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq"
+      }
+    ],
+    "pair_addresses": [
+      "3NeUgARDmFgnKtkJLqUcEUNCfknFCcGsFfMJCtx6bAgx",
+      "ARwi1S4DaiTG5DX7S4M4ZsrXqpMD1MrTmbu9ue2tpmEq"
+    ]
+  },
+
+  "solana": {
+    "explorer": "https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "solscan": "https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "solana_fm": "https://solana.fm/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "birdeye": "https://birdeye.so/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?chain=solana",
+    "dexscreener": "https://dexscreener.com/solana/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+  },
+
+  "socials": {
+    "twitter": "https://x.com/circle",
+    "linkedin": "https://www.linkedin.com/company/circle-internet-financial/",
+    "youtube": "https://www.youtube.com/c/Circlecryptofinance",
+    "discord": "https://discord.gg/circle",
+    "instagram": "https://www.instagram.com/teamcircle/"
+  },
+
+  "security": {
+    "mint_authority": "Circle-controlled multisig",
+    "freeze_authority": "Circle-controlled multisig",
+    "mint_authority_revoked": false,
+    "freeze_authority_revoked": false,
+    "transfer_fee_enabled": false,
+    "default_frozen": false,
+    "non_transferable": false,
+    "blacklist_capable": true,
+    "blacklist_note": "Circle retains the freeze authority on the Solana USDC mint. It sends the SPL Token program's FreezeAccount instruction, which is a standard Solana capability any mint can keep at creation. This is an issuer-level compliance policy.",
+    "solana_token_program_standard": "SPL Token Program",
+    "token_2022_extensions": false
+  },
+
+  "tokenomics": {
+    "total_supply": "8000000000000",
+    "circulating_supply": "8000000000000",
+    "maximum_supply": "8000000000000",
+    "allocation": {
+      "liquidity": { "percentage": 0, "amount": "0" },
+      "treasury": { "percentage": 0, "amount": "0" },
+      "team": { "percentage": 0, "amount": "0" },
+      "community": { "percentage": 0, "amount": "0" },
+      "marketing": { "percentage": 0, "amount": "0" }
+    },
+    "issuance_model": "Elastic — Circle mints new USDC when fiat deposits are received and burns USDC upon redemption. All supply changes correspond to reserve movements.",
+    "reserve_backing": "100% backed by USDC reserves: short-term U.S. Treasuries (~$25.7B), overnight reverse repos, and bank deposits. Majority held in the Circle Reserve Fund (USDXX), an SEC-registered 2a-7 government money market fund managed by BlackRock."
+  }
+}
