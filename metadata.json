@@ -62,8 +62,8 @@
     "issuer": "Circle",
     "issuer_legal_name": "Circle Internet Financial, LLC",
 
-    "image": "https://assets.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
-    "logo_uri": "https://assets.coingecko.com/coins/images/6319/large/usdc.png?1696506694",
+    "image": "https://cdn.jsdelivr.net/gh/zantric/dclogo@v1.0.0/IMG_0507.png",
+    "logo_uri": "https://cdn.jsdelivr.net/gh/zantric/dclogo@v1.0.0/IMG_0507.png",
 
     "official_website": "https://www.circle.com/usdc",
     "usdc_website": "https://www.usdc.com/",
